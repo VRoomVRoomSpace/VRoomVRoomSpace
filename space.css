@@ -7,8 +7,17 @@ body {
 }
 h1 {
 	color: white;
-	margin: 50px auto;
+	margin: 40px auto 20px;
 	text-align: center;
+}
+.vroomvroom {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 1.5em;
+}
+.space {
+	font-family: 'Fontdiner Swanky', cursive;
+	padding: 8px;
+	font-size: 2.5em;
 }
 #streamcontainer {
 	margin: auto;
