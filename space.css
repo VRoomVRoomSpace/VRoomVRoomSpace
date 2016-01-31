@@ -1,0 +1,29 @@
+body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/Wallpaper_of_Stars_Shoot_Jets_in_Cosmic_Playground.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	background-color: #1a1a1a;
+}
+h1 {
+	color: white;
+	margin: 50px auto;
+	text-align: center;
+}
+#streamcontainer {
+	margin: auto;
+	width: 1240px;
+	height: 756px;
+}
+#livestream {
+	width: 1240px;
+	height: 756px;
+	display: block;
+	margin: auto;
+}
+
+#livestreamlink {
+	font-size: 1em;
+	color: white;
+	float: left;
+}
