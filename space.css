@@ -4,9 +4,9 @@ body {
     background-repeat:   no-repeat;
     background-position: center center; 
 	background-color: #1a1a1a;
+	color: white;
 }
 h1 {
-	color: white;
 	margin: 40px auto 20px;
 	text-align: center;
 }
@@ -21,8 +21,8 @@ h1 {
 }
 #streamcontainer {
 	margin: auto;
-	width: 1240px;
-	height: 756px;
+	width: 80%;
+	clear: both;
 }
 #livestream {
 	width: 1240px;
@@ -31,8 +31,31 @@ h1 {
 	margin: auto;
 }
 
-#livestreamlink {
+#description {
 	font-size: 1em;
+	text-align: center;
+	display: block;
+	width: 35%;
+	padding: 1em;
+	margin: 1em auto;
+    background: rgb(53, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .75);
+}
+
+p {
+	font-size: 1.75em;
 	color: white;
-	float: left;
+	display: inline-block;
+	margin: 0 auto 1.5em;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+a {
+	color: white;
+}
+
+h2 {
+	font-size: 2em;
 }
